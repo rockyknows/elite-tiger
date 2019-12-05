@@ -1,7 +1,7 @@
 ---
 title: About Me
 subtitle: This is a short page about me and my work
-img_path: "/images/IMG_1992.jpg"
+img_path: "/images/Screenshot_20180412-083338.png"
 menus:
   main:
     title: About
