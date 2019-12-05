@@ -25,5 +25,4 @@ fields:
   config:
     required: true
 pages:
-- src/pages/projects.md
 - src/pages/about.md
