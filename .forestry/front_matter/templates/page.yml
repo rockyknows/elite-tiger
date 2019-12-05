@@ -26,5 +26,4 @@ fields:
     required: true
 pages:
 - src/pages/projects.md
-- src/pages/style-guide.md
 - src/pages/about.md
