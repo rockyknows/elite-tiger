@@ -25,4 +25,5 @@ fields:
   config:
     required: true
 pages:
+- src/pages/Projects/defender-atp.md
 - src/pages/about.md
