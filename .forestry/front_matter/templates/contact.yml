@@ -26,3 +26,4 @@ fields:
     required: true
 pages:
 - src/pages/contact.md
+- src/pages/contact.md

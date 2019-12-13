@@ -48,8 +48,14 @@ fields:
     required: true
 pages:
 - src/pages/posts/Project Defender/mcafee-retirement-defender-atp-setup.md
+- src/pages/posts/Project Defender/mcafee-retirement-defender-atp-setup.md
+- src/pages/posts/basic-rules-for-walking-in-the-mountains.md
 - src/pages/posts/basic-rules-for-walking-in-the-mountains.md
 - src/pages/posts/fox-village-in-japan.md
+- src/pages/posts/fox-village-in-japan.md
+- src/pages/posts/fragments-of-iceland.md
 - src/pages/posts/fragments-of-iceland.md
 - src/pages/posts/nature.md
+- src/pages/posts/nature.md
+- src/pages/posts/test.md
 - src/pages/posts/test.md

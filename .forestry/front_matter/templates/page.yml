@@ -26,4 +26,6 @@ fields:
     required: true
 pages:
 - src/pages/about.md
+- src/pages/about.md
+- src/pages/finances.md
 - src/pages/finances.md
