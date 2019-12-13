@@ -9,6 +9,7 @@ content_img_path: "/images/ZnQSkLZ-_400x400.jpg"
 excerpt: 'Personally, this is monumental to my career. '
 hide_header: false
 defender: []
+Topics: []
 
 ---
 **Defender ATP Setup: High-Level Overview**
