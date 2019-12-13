@@ -12,10 +12,10 @@ fields:
   name: palette
   label: Color Palette
   description: The color palette of the theme.
-  default: yellow
+  default: blue
   config:
     source:
-      type: custom
+      type: simple
     options:
     - yellow
     - blue
