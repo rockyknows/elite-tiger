@@ -1,9 +1,9 @@
 ---
 template: post
-title: test
-subtitle: ''
+title: Defender ATP Setup
+subtitle: Defending is key
 date: 2019-12-12T06:00:00Z
-thumb_img_path: "/images/LogoMakr_210my3.png"
+thumb_img_path: "/images/fig1-Windows-Defender-ATP.png"
 content_img_path: ''
 excerpt: ''
 hide_header: false
