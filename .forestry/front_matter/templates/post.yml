@@ -30,10 +30,10 @@ fields:
   name: excerpt
   label: Excerpt
   description: The excerpt of the post displayed in the blog feed.
-- name: defender
+- name: Topics
   type: tag_list
   default: []
-  label: Defender
+  label: Labels
 - type: boolean
   name: hide_header
   label: Hide header
