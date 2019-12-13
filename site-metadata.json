@@ -12,7 +12,9 @@
   "footer": {
     "content": "&copy; All rights reserved.",
     "links": [
-
+      {
+        "new_window": true
+      }
     ]
   }
 }
