@@ -15,5 +15,8 @@ fields:
   default: home
   config:
     required: true
+- name: day/night
+  type: boolean
+  label: Day/Night
 pages:
 - src/pages/index.md
