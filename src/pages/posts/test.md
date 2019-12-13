@@ -1,11 +1,12 @@
 ---
 template: post
 title: Defender ATP Setup
-subtitle: Defending is key
+subtitle: " this was quite an accomplishment and we're only half way to our goal:
+  Defender ATP into Intune!"
 date: 2019-12-12T06:00:00Z
 thumb_img_path: "/images/fig1-Windows-Defender-ATP.png"
-content_img_path: ''
-excerpt: ''
+content_img_path: "/images/ZnQSkLZ-_400x400.jpg"
+excerpt: 'Personally, this is monumental to my career. '
 hide_header: false
 defender: []
 
