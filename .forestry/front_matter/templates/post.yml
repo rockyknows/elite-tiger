@@ -42,6 +42,10 @@ fields:
   default: post
   config:
     required: true
+- name: defender
+  type: tag_list
+  default: []
+  label: Defender
 pages:
 - src/pages/posts/Project Defender/mcafee-retirement-defender-atp-setup.md
 - src/pages/posts/basic-rules-for-walking-in-the-mountains.md
