@@ -6,3 +6,8 @@ fields:
   type: tag_list
   default: []
   label: Tags
+- name: night_mode
+  type: boolean
+  label: Night Mode
+  default: false
+  hidden: false
