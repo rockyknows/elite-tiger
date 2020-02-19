@@ -6,7 +6,9 @@ thumb_img_path: "/images/nov18_16_882299664.jpg"
 content_img_path: "/images/917px-Shield_by_Franc_from_the_Noun_Project.svg.png"
 excerpt: 'People can get a little paranoid. '
 template: post
-Topics: []
+Topics:
+- defender
+- defenderATP
 hide_header: false
 
 ---
