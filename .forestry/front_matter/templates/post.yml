@@ -32,7 +32,9 @@ fields:
   description: The excerpt of the post displayed in the blog feed.
 - name: Topics
   type: tag_list
-  default: []
+  default:
+  - Defender
+  - DefenderATP
   label: Labels
   showOnly:
     value: true
