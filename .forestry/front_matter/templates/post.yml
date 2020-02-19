@@ -37,6 +37,7 @@ fields:
   showOnly:
     field: hide_header
     value: true
+  hidden: false
 - type: boolean
   name: hide_header
   label: Hide header
