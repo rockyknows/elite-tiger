@@ -10,7 +10,9 @@ excerpt: 'The main goal was to remove McAfee Removal, place Defender ATP as the 
   AV. This goal was simply the most biggest asked I''ve ever done. '
 hide_header: false
 defender: []
-Topics: []
+Topics:
+- defender
+- defenderatp
 
 ---
 **Defender ATP Setup: High-Level Overview**
