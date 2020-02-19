@@ -7,7 +7,7 @@ content_img_path: "/images/917px-Shield_by_Franc_from_the_Noun_Project.svg.png"
 excerpt: 'People can get a little paranoid. '
 template: post
 Topics: []
-hide_header: false
+hide_header: true
 
 ---
 So I've been through hell trying to figure out different issues to our Defender AV is OFF.   
