@@ -26,10 +26,6 @@ fields:
   label: Alternative Featured Image
   description: The image shown on the left side in the single post. If no image added,
     the default image specified in Header Configuration is displayed.
-- type: text
-  name: excerpt
-  label: Excerpt
-  description: The excerpt of the post displayed in the blog feed.
 - name: Topics
   type: tag_list
   default:
@@ -39,11 +35,10 @@ fields:
   showOnly:
     value: true
   hidden: false
-- type: boolean
-  name: hide_header
-  label: Hide header
-  description: Hide the left side in the single post.
-  default: false
+- type: text
+  name: excerpt
+  label: Excerpt
+  description: The excerpt of the post displayed in the blog feed.
 - type: text
   name: template
   label: Template
@@ -51,6 +46,11 @@ fields:
   default: post
   config:
     required: true
+- type: boolean
+  name: hide_header
+  label: Hide header
+  description: Hide the left side in the single post.
+  default: false
 pages:
 - src/pages/posts/DefenderATP.md
 - src/pages/posts/DefenderIssue#1.md
