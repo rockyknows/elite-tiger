@@ -1,32 +1,41 @@
 ---
-title: Fox Village In Japan
-subtitle: >-
-  Apparently, Japan is covered in magical and irresistibly cute animal
-  sanctuaries.
-date: '2018-01-11'
-thumb_img_path: images/10.jpg
-content_img_path: images/10.jpg
-excerpt: >-
-  Apparently, Japan is covered in magical and irresistibly cute animal
-  sanctuaries. The Shrines of Ise have been celebrated as the prototype of
-  Japanese architecture. Largely of wood, traditional housing and many temple
-  buildings see the use of tatami mats and sliding doors that break down the
-  distinction between rooms and indoor and outdoor space.
+title: 'The Defender Issue #1: Third Party AV and Firewall'
+subtitle: Apparently, People had no idea Defender was even on...
+date: 2020-02-18T00:00:00-06:00
+thumb_img_path: "/images/whatface.jpg"
+content_img_path: "/images/917px-Shield_by_Franc_from_the_Noun_Project.svg.png"
+excerpt: 'People can get a little paranoid. '
 template: post
+Topics: []
+hide_header: false
+
 ---
+So I've been through hell trying to figure out different issues to our Defender AV is OFF.   
+Yes. This happens and there's only a few ways to figure out why and how many.. 
 
-Apparently, Japan is covered in magical and irresistibly cute animal sanctuaries. **The Shrines of Ise** have been celebrated as the prototype of Japanese architecture. Largely of wood, traditional housing and many temple buildings see the use of tatami mats and sliding doors that break down the distinction between rooms and indoor and outdoor space.
+In the Portal, go to Reporting. You should be able to see the machine compliance. From there, you can filter down to "Defender Anti-Virus - OFF". 
 
-> The fox never found a better messenger than himself.
+There will be a few devices every now and then that are listed under this filter category.   
+There are a few ways Defender AV will actually be "OFF". 
 
-As the programming of <a title="Japan" href="http://en.wikipedia.org/wiki/Japan" target="_blank">Japan’s</a> traditional culture gradually weakened from 1945 on, individual Japanese began to exercise some personal choice in their private lives. But the newly mandated freedoms had a minimal effect on a number of key institutions.
+1. The Windefend service is not running. (Or in some cases, it will fail to start)
+2. Third Party Anti-Virus like Norton, McAfee, Panda AV...
+3. Group Policy
+4. (that's all I can find out right now.. this is a journey!)
 
-Japan’s educational, economical and political systems remained hidebound bulwarks of traditional behavior. The politically guided economic system in particular was able to generate enormous power that could be directed with the precision of a laser beam.
+![](/images/dHZQq.png "Service is not running")
 
-Twelve species belong to the monophyletic group of Vulpes genus of **"true foxes"**. Approximately another 25 current or extinct species are always or sometimes called foxes; these foxes are either part of the paraphyletic group of the South American foxes, or of the outlying group, which consists of bat-eared fox, gray fox, and island fox. Foxes are found on every continent except Antarctica. By far the most common and widespread species of fox is the red fox *(Vulpes vulpes)* with about 47 recognized subspecies. 
+This is really a big deal for some but a few of our Virtual Desktops were affected by this. So here's the deal... Our Virtual Desktops are treated very differently so group policy is used to lock down users and in this case, minimal cpu usage. I get it, that's understandable.   
+My team never really thought this was causing us headaches but it was.. of course some of these Virtual Desktops are some what slow to get the policy because again, its 'treated' differently. 
 
-> The fox changes his fur but not his habits.
+SOLVED: If you are using SCCM, [please make sure you enable "RUN SCRIPT" ](). 
 
-The global distribution of foxes, together with their widespread reputation for cunning, has contributed to their prominence in popular culture and folklore in many societies around the world. The hunting of foxes with packs of hounds, long an established pursuit in Europe, especially in the British Isles, was exported by European settlers to various parts of the New World. { <a title="Fox" href="https://en.wikipedia.org/wiki/Fox" target="_blank">Source</a> }
+Powershell Code here: (Code will be pasted here soon)
 
-The interaction between Japanese and European art has been significant: for example ukiyo-e prints, which began to be exported in the 19th century in the movement known as Japonism, had a significant influence on the development of modern art in the West, most notably on post-Impressionism. Famous ukiyo-e artists include Hokusai and Hiroshige. The fusion of traditional woodblock printing and Western art led to the creation of manga, a comic book format that is now popular within and outside Japan. Manga-influenced animation for television and film is called anime. Japanese-made video game consoles have been popular since the 1980s. { <a title="Ise Grand Shrine" href="http://en.wikipedia.org/wiki/Ise_Grand_Shrine" target="_blank">Source</a> }
+This will set the registry from Disabled(4) to Automatic (2).
+
+**Third Party AV and Firewall**
+
+(tba)
+
+Follow me on twitter [https://twitter.com/atRockyP](https://twitter.com/atRockyP "https://twitter.com/atRockyP")
