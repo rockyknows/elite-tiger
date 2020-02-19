@@ -35,7 +35,6 @@ fields:
   default: []
   label: Labels
   showOnly:
-    field: hide_header
     value: true
   hidden: false
 - type: boolean
