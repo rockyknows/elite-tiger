@@ -8,7 +8,7 @@ thumb_img_path: "/images/fig1-Windows-Defender-ATP.png"
 content_img_path: "/images/743165-636723471701735787-16x9.jpg"
 excerpt: 'The main goal was to remove McAfee Removal, place Defender ATP as the main
   AV. This goal was simply the most biggest asked I''ve ever done. '
-hide_header: false
+hide_header: true
 defender: []
 Topics: []
 
