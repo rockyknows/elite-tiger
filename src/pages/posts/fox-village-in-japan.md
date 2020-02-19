@@ -2,7 +2,7 @@
 title: 'The Defender Issue #1: Third Party AV and Firewall'
 subtitle: Apparently, People had no idea Defender was even on...
 date: 2020-02-18T00:00:00-06:00
-thumb_img_path: "/images/whatface.jpg"
+thumb_img_path: "/images/nov18_16_882299664.jpg"
 content_img_path: "/images/917px-Shield_by_Franc_from_the_Noun_Project.svg.png"
 excerpt: 'People can get a little paranoid. '
 template: post
