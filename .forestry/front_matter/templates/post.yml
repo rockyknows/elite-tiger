@@ -34,6 +34,9 @@ fields:
   type: tag_list
   default: []
   label: Labels
+  showOnly:
+    field: hide_header
+    value: true
 - type: boolean
   name: hide_header
   label: Hide header
