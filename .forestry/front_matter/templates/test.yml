@@ -1,4 +1,8 @@
 ---
 label: Test
 hide_body: true
-fields: []
+fields:
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
